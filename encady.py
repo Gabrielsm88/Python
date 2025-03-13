@@ -1,3 +1,5 @@
+#Nao específica valores iguais
+
 A = B = C = 0.0
 
 #INPUT

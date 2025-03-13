@@ -1,3 +1,4 @@
+#IF ENCADEADO
 #VARIAVEL
 salario = 0.0
 

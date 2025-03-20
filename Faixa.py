@@ -3,11 +3,11 @@ valor = 0.0
 
 valor = float(input("Insira um valor: "))
 
-if (0 <= valor <= 10):
+if (valor >= 0 and valor <= 10):
   print("O valor dado pertence a faixa 1")
-elif (15 <= valor <= 25):
+elif (valor >= 15 and valor <= 25):
   print("O valor dado pertence a faixa 2")
-elif (26 <= valor <= 40):
+elif (valor >= 26 and valor <= 40):
   print("O valor dado pertence a faixa 3")
 else:
   print("O valor não possui faixa definida")

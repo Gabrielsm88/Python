@@ -7,7 +7,7 @@ if idade < 5 :
   print("Sem categoria")
 elif (idade <= 7):
   print("Infantil A")
-elif (idade<= 10):
+elif (idade <= 10):
   print("Infantil B")
 elif (idade <= 13):
   print("Juvenil A")

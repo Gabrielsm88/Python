@@ -5,15 +5,15 @@ idade = int(input("Qual a idade do nadador? "))
 
 if idade < 5 :
   print("Sem categoria")
-elif (5 <= idade <= 7):
+elif (idade <= 7):
   print("Infantil A")
-elif (8 <= idade <= 10):
+elif (idade<= 10):
   print("Infantil B")
-elif (11 <= idade <= 13):
+elif (idade <= 13):
   print("Juvenil A")
-elif (14 <= idade <= 17):
+elif (idade <= 17):
   print("Juvenil B")
-elif (18 <= idade <= 60):
+elif (idade <= 60):
   print("Adulto")
 else:
   print("Senior")

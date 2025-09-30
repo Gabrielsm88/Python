@@ -1,6 +1,3 @@
-# Gabriel de Souza Magalhães
-# Matheus Feliciano das Neves
-
 # -------- Programa principal -------- #
 N = int(input().strip())  
 canais = ler_canais(N)  # Lê todos os canais recursivamente
@@ -53,4 +50,5 @@ def imprimir_resultado(canais):
         return
     nome, bonus = canais[0]  
     print(f"{nome}: R$ {bonus:.2f}")  # Imprime o bônus
+
     imprimir_resultado(canais[1:])  # Chama recursivamente para o resto
